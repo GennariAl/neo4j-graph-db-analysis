@@ -1,4 +1,4 @@
-# neo4j-graph-db-analysis
+# neo4j-graph-db-analysis-in-Python
 Each analysis on the graph DB has been carried out through Python scripts which queries the DB and processes the results
 
 ## 1. Weakly Connected Components identification
