@@ -5,9 +5,10 @@ from neo4j.exceptions import Neo4jError
 from difflib import SequenceMatcher
 from Bio import Align
 
-uri = "bolt://localhost:7687"
-user = "neo4j"
-password = "Cambiami2020!"
+# write here the driver credentials
+uri = ""
+user = ""
+password = ""
 
 def get_driver():
     return GraphDatabase.driver
@@ -71,7 +72,7 @@ wcc = []   	# list that will contain the dictionaries of each community with id,
 count = 0
 for c in community_dict.keys():
 
-	if community_dict[c] > 600:		# FILTER FOR CONSIDERING A PORTION OF THE TOTAL COMPONENTS
+	# if community_dict[c] > 600:		# FILTER FOR CONSIDERING A PORTION OF THE TOTAL COMPONENTS
 
 		print(f'\n> I CONSIDER THE COMMUNITY WITH CON {community_dict[c]} NODES')
 		samples_in_comm = []
