@@ -3,9 +3,10 @@ import statistics
 from neo4j import GraphDatabase
 from neo4j.exceptions import Neo4jError
 
-uri = "bolt://localhost:7687"
-user = "neo4j"
-password = "Cambiami2020!"
+# write here the driver credentials
+uri = ""
+user = ""
+password = ""
 
 # driver
 def get_driver():
