@@ -1,8 +1,3 @@
-### INDICE ###
-# RICERCA WCC
-# 2. runno il Weakly Connected Component algorithm per identificare le community (componenti connesse)
-# 3. creo la lista wcc, che contiene un dizionario per ogni community (id = , subgs = , samples = )
-
 import logging
 import statistics
 from neo4j import GraphDatabase
